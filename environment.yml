@@ -1,0 +1,12 @@
+name: ncwcp-python-workshop
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - pandas
+  - xarray
+  - dask
+  - pyresample
+  - cartopy
+  - netcdf4
