@@ -3,10 +3,10 @@
 ### by [Rebekah Esmaili](http://www.rebekahesmaili.com), [Kriti Bhargava](https://cisess.umd.edu/meet-our-scientists/kriti-bhargava/), and [Eviatar Bach](http://eviatarbach.com/)
 ---
 
-A four hour crash course in Python focusing on reading and visualizing data-sets used in Earth sciences.
+A crash course in Python focusing on reading and visualizing data-sets used in Earth sciences.
 
-Access materials: [https://ter.ps/noaapy](https://ter.ps/noaapy)
-
+Access materials via GitHub: [https://ter.ps/noaapy](https://ter.ps/noaapy)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/modern-tools-workshop/NCWCP-python-workshop-2020.git/master)
 ---
 
 ## Getting Started
@@ -20,7 +20,7 @@ Day 1 will cover:
 
 Day 2 will cover:
 
-* Importing scientific data formats such as netCDF, HDF, and GRIB2
+* Importing scientific data formats such as netCDF, HDF, and GRIB2 using xarray
 * Creating maps from datasets
 * Running python scripts
 
@@ -28,10 +28,30 @@ Day 2 will cover:
 
 Installation requirements
 
-* To run this you need Anaconda installed on the computer
-* Installation instructions are provided for Mac, Windows, and Linux [here](https://github.com/modern-tools-workshop/ncep-workshop/tree/master/Installation_instructions).
+I am really new to Python!
 
+* I recommend launching binder, which is a "cloud version" of this course. No installation required!
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/modern-tools-workshop/NCWCP-python-workshop-2020.git/master)
+
+I have used Python before:
+
+* If you wish to run the examples locally, I recommend installing [Anaconda](https://www.anaconda.com/products/individual). If you are having trouble with your installation, contact the instructor before the course or use binder.
+* Download the contents of the [GitHub repository](https://ter.ps/noaapy) to your computer.
+* Launch Jupyter Notebooks from the Anaconda Navigator. This will open a window in your default browser. Navigtae to the folder that contains the notebooks (*.ipynb) and click on the tutorial for the day.
+
+* Additional packages:
+  * Day 1: If you installed Anaconda, you will not need any additional packages
+  * Day 2: Launch the Anaconda Prompt (Windows) or Terminal (MacOS/Linux). Then copy/paste and hit enter:
+    ```
+    conda install -c conda-forge cartopy
+    conda install -c conda-forge netCDF4
+    conda install -c conda-forge pygrib
+    ```
+  * If there are no errors, then you are set-up!
+
+I *do not* recommend:
+* Using Python on a remote server for this tutorial (I cannot help troubleshoot)
+* Using your operating system's Python or a shared Python installations unless you are advanced!
 
 ---
 
@@ -64,7 +84,7 @@ Installation requirements
 ---    
 
 ### General Python resources   
- 
+
 <b> Free online Tutorials</b>
    * Youtube series for absolute beginners [CS Dojo](https://www.youtube.com/watch?v=Z1Yd7upQsXY&list=PLBZBJbE_rGRWeh5mIBhD-hhDwSEDxogDg)
    * Enhance your workflow [Automate Boring Stuff](https://automatetheboringstuff.com/)
