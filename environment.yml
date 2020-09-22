@@ -2,11 +2,11 @@ name: ncwcp-python-workshop
 channels:
   - conda-forge
 dependencies:
+  - python=3.7
   - numpy
   - matplotlib
   - pandas
-  - xarray
-  - dask
-  - pyresample
   - cartopy
   - netcdf4
+  - pygrib
+  - notebook
