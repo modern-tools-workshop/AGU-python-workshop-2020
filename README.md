@@ -20,7 +20,7 @@ Day 1 will cover:
 
 Day 2 will cover:
 
-* Importing scientific data formats such as netCDF, HDF, and GRIB2 using xarray
+* Importing scientific data formats, such as netCDF and GRIB2
 * Creating maps from datasets
 * Running python scripts
 
@@ -28,17 +28,16 @@ Day 2 will cover:
 
 Installation requirements
 
-I am really new to Python!
+"I am really new to Python!"
 
 * I recommend launching binder, which is a "cloud version" of this course. No installation required!
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/modern-tools-workshop/NCWCP-python-workshop-2020.git/master)
 
-I have used Python before:
+"I have used Python before!"
 
 * If you wish to run the examples locally, I recommend installing [Anaconda](https://www.anaconda.com/products/individual). If you are having trouble with your installation, contact the instructor before the course or use binder.
 * Download the contents of the [GitHub repository](https://ter.ps/noaapy) to your computer.
-* Launch Jupyter Notebooks from the Anaconda Navigator. This will open a window in your default browser. Navigtae to the folder that contains the notebooks (*.ipynb) and click on the tutorial for the day.
-
+* Launch Jupyter Notebooks from the Anaconda Navigator. This will open a window in your default browser. Navigate to the folder that contains the notebooks (*.ipynb) and click on the tutorial for the day.
 * Additional packages:
   * Day 1: If you installed Anaconda, you will not need any additional packages
   * Day 2: Launch the Anaconda Prompt (Windows) or Terminal (MacOS/Linux). Then copy/paste and hit enter:
@@ -48,6 +47,7 @@ I have used Python before:
     conda install -c conda-forge pygrib
     ```
   * If there are no errors, then you are set-up!
+  * Alternatively, if you are familiar with environments, you can use the environments.yml to install the necessary packages.
 
 I *do not* recommend:
 * Using Python on a remote server for this tutorial (I cannot help troubleshoot)
