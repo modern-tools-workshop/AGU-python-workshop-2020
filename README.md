@@ -1,11 +1,12 @@
 # Python for Earth Sciences
 
-### by [Rebekah Esmaili](http://www.rebekahesmaili.com), [Kriti Bhargava](https://cisess.umd.edu/meet-our-scientists/kriti-bhargava/), and [Eviatar Bach](http://eviatarbach.com/)
+### Instructor: [Rebekah Esmaili](http://www.rebekahesmaili.com)
+### Contributors: [Kriti Bhargava](https://cisess.umd.edu/meet-our-scientists/kriti-bhargava/) and [Eviatar Bach](http://eviatarbach.com/)
 ---
 
 A crash course in Python focusing on reading and visualizing data-sets used in Earth sciences.
 
-Access materials via GitHub: [https://ter.ps/noaapy](https://ter.ps/noaapy)
+This code is interactive! Click:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/modern-tools-workshop/AGU-python-workshop-2020/HEAD)
 
 ---
