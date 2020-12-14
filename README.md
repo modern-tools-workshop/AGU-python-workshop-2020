@@ -1,7 +1,7 @@
 # Python for Earth Sciences
 
 ### Instructor: [Rebekah Esmaili](http://www.rebekahesmaili.com)
-### Contributors: [Kriti Bhargava](https://cisess.umd.edu/meet-our-scientists/kriti-bhargava/) and [Eviatar Bach](http://eviatarbach.com/)
+#### Contributors: [Kriti Bhargava](https://cisess.umd.edu/meet-our-scientists/kriti-bhargava/) and [Eviatar Bach](http://eviatarbach.com/)
 ---
 
 A crash course in Python focusing on reading and visualizing data-sets used in Earth sciences.
@@ -45,6 +45,7 @@ Installation requirements
     ```
     conda install -c conda-forge cartopy
     conda install -c conda-forge netCDF4
+    conda install -c conda-forge pygrib
     ```
   * If there are no errors, then you are set-up!
   * Alternatively, if you are familiar with environments, you can use the environments.yml to install the necessary packages.
