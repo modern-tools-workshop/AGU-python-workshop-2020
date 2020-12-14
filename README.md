@@ -55,6 +55,11 @@ I *do not* recommend:
 * Using your operating system's Python or a shared Python installations unless you are advanced!
 
 ---
+## Course Philosophy
+
+* Increase accessibility of satellite data and analysis
+* Teach Python using practical examples and real-world datasets
+* Promote reproducible and transparent scientific research
 
 ## Resources
 

@@ -8,7 +8,6 @@ dependencies:
   - pandas
   - cartopy
   - netcdf4
-  - h5py
   - pygrib
   - notebook
   - scipy
