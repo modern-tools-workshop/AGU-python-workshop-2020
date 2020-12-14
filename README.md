@@ -36,7 +36,7 @@ Installation requirements
 "I have used Python before!"
 
 * If you wish to run the examples locally, I recommend installing [Anaconda](https://www.anaconda.com/products/individual). If you are having trouble with your installation, contact the instructor before the course or use binder.
-* Need help installing Anaconda? Video tutorial on [YouTube](https://youtu.be/3BrfFe4HsAw).
+* Need help installing Anaconda? Video tutorial on [YouTube](https://youtu.be/zxSQCXXvOIM).
 * Download the contents of the [GitHub repository](https://ter.ps/noaapy) to your computer.
 * Launch Jupyter Notebooks from the Anaconda Navigator. This will open a window in your default browser. Navigate to the folder that contains the notebooks (*.ipynb) and click on the tutorial for the day.
 * New to Jupyter? Here's a video tutorial on [YouTube](https://youtu.be/gmMCuR9JPpY).
@@ -45,7 +45,6 @@ Installation requirements
     ```
     conda install -c conda-forge cartopy
     conda install -c conda-forge netCDF4
-    conda install -c conda-forge pygrib
     ```
   * If there are no errors, then you are set-up!
   * Alternatively, if you are familiar with environments, you can use the environments.yml to install the necessary packages.
